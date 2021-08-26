@@ -30,3 +30,5 @@ will contain an mp3 audio file (the podcast itself) as well as a plaintext file 
 appear on the webpage.
 
 ![Screenshot of the folder structure](images/directories.png)
+
+![Screenshot of folder contents](images/contents.png)
