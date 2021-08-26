@@ -13,8 +13,9 @@ directions, please consult the "Installing Python" section of this
 [Microsoft Docs Page](https://docs.microsoft.com/en-us/windows/python/beginners#install-python).
  
 ### Setting up the Program
-Once Python is installed, download the code using the "Download Zip" option visible when you click the green "Code" button
-above. Save the .zip file, and extract it in your file manager. 
+Once Python is installed, download the code from the Releases tab, or by following
+[this download link](https://github.com/Isaac-Newt/podcast-archiver/archive/refs/tags/v1.0.zip). Save the .zip file,
+and extract it in your file manager. 
 
 ## Using the Podcast Archiver
 
