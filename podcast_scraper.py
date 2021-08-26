@@ -137,8 +137,12 @@ def main(window = None, all_episodes = False):
         # For each episode listed, process the ones not yet processed
         for episode in episodes[:3]:
             if episode not in saved_episodes_list or all_episodes:
+                msg: str = f"Now processing episode at {episode}"
+                # window.setMessage(msg)
+                
                 result: str = process_episode(episode)
                 if window != None:
+                    # window.setMessage(result)
                     pass
                 else:
                     print(result)
