@@ -6,7 +6,7 @@
 To set this program up, you should first download Python from [the Official Python Website](https://www.python.org/downloads/).
 Run the installer, and follow the instructions. You can install it either for all users, or just the current user.
 
-### From the Winsows Store
+### From the Windows Store
 You may also install Python using the Windows store. To do so, simply search for "Python", and install the latest version
 (3.9 at time of writing).
 
