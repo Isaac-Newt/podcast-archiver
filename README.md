@@ -10,7 +10,7 @@ Run the installer, and follow the instructions. You can install it either for al
 You may also install Python using the Windows store. To do so, simply search for "Python", and install the latest version
 (3.9 at time of writing).
 
-![Installing from the windows store](images/winstore.png)
+![Installing from the windows store](images/Python%20from%20Windows%20Store.png)
 
 Once Python is installed, download the code (including the config folder) and save to your computer.
 
