@@ -12,6 +12,10 @@ class Application(tk.Frame):
         self.grid(row = 0, column = 0, padx = 32, pady = 32)
         self.create_widgets()
 
+    def setMessage(self, message):
+        """Set status message within the window"""
+        self.status = ttk.Label(self.bframe, text=message, font=("Segoe UI", 14))
+
     def create_widgets(self):
         """Create window widgets"""
         # Create application frame
@@ -21,16 +25,15 @@ class Application(tk.Frame):
 
         # Informational Labels
         greeting: str = "Welcome to the Messy Jesus Business Podcast Archiver"
-        self.greet = ttk.Label(self.tframe, text=greeting, font=(18))
+        self.greet = ttk.Label(self.tframe, text=greeting, font=("Segoe UI", 14))
         self.greet.grid(row=0, column=0, padx = 16, pady = 8)
 
         information: str = """
-                    Select an option below to begin the archiving process.\n
-                    New Episodes will retrieve only episodes published since the
-                    last time this program was run, while All Episodes will
-                    retrieve every Messy Jesus Business episode available online.                    
-                    """
-        self.info = ttk.Label(self.tframe, text=information)
+            Select an option below to begin the archiving process.\n
+            \"New Episodes\" will retrieve only episodes published since the last time this program was run.\n
+            \"All Episodes\" will retrieve every Messy Jesus Business episode available online.
+            """
+        self.info = ttk.Label(self.tframe, text=information, font=("Segoe UI", 11))
         self.info.grid(row=1, column=0, padx = 16, pady=8)
         
         # Button to run the scraper script
@@ -49,7 +52,7 @@ class Application(tk.Frame):
         self.quit.grid(row=1, column=0, columnspan=2, padx = 16, pady = 8)
 
         # Status message for current operation
-        self.status = ttk.Label(self.bframe, text="Ready to Begin", font=(18))
+        self.status = ttk.Label(self.bframe, text="Ready to Begin", font=("Segoe UI", 14))
         self.status.grid(row=0, column=0, columnspan=2, padx=32, pady=16)
 
         # Add frames to main window
